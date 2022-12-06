@@ -5,7 +5,7 @@
     "payloadSize": null,
     "scim": {
       "version": "2.0",
-      "customSchema": null,
+      "customSchema": "sample-schema-extension.json",
       "skipTypeConvert": false,
       "usePutSoftSync": false
     },
@@ -20,7 +20,7 @@
       "basic": [
         {
           "username": "gwadmin",
-          "password": "YzAzMjAwNjVmYjAzNGEzY2YwYTk0MjY1ODhjYzRjYjU6MjhlZTIzMDAwZTA4ZmIzNDg3NDMyYjhlZTVhMDk0Njg=",
+          "password": "YjRmNTY0ZGU3ZTQ1NjkyY2I2ODViY2NjMTA5MWFiMzI6NGViNzU3NmYzN2E5MGNiNDA1NGI2NWZmN2QyMzNiOGQ3ZDA0NGMzN2NhYzllYmZiNDc5ZDE3YWVhZjU0YjYxNTdhNjJmMTYzYzc2Njg2MzY1MWExNjRiYTdjOWI0YWFhZWE4NjY5NjBjMzZjYTcwNGMxMWEzY2EyZDc4OTZkMDI0ZTFhYWE3OTY1ZmQ1MmQxMDE4NzVhMGE5YmMxNmE2MWQ5YmE3ZTVlMGRiZjMyYjNkNjIwMmYwMGQ4MjJmNzRi",
           "readOnly": false,
           "baseEntities": []
         }

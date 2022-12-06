@@ -1,0 +1,16 @@
+[
+  {
+    "name": "User",
+    "attributes": [
+      {
+        "name": "musicPreference",
+        "type": "string",
+        "multiValued": false,
+        "description": "Music Preferences",
+        "readOnly": false,
+        "required": false,
+        "caseExact": false
+      }
+    ]
+  }
+]
