@@ -12,5 +12,9 @@
         "caseExact": false
       }
     ]
+  },
+  {
+    "name": "Group",
+    "attributes": []
   }
 ]
