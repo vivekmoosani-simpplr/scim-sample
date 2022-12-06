@@ -300,3 +300,13 @@ AAAAB3NzaC1yc2EAAAADAQABAAABgQDIBS3VaWCe+SIdxF/G5ymrjOWrWRpRuJOMsaf29IxQgxC//kR9
 2022-12-06T15:21:05.68 error: scimgateway[plugin-loki] / request is missing authentication information
 2022-12-06T15:21:05.69 error: scimgateway[plugin-loki] 2ms 141.101.97.49 undefined GET http://23beur-8880.preview.csb.app/ Inbound = {} Outbound = {"statusCode":401,"statusMessage":"Unauthorized","body":{"error":"Access denied"}}
 
+2022-12-06T15:26:20.847 debug: scimgateway[plugin-loki] request authToken = undefined
+2022-12-06T15:26:20.848 debug: scimgateway[plugin-loki] request jwt.decode(authToken) = null
+2022-12-06T15:26:20.848 error: scimgateway[plugin-loki] /ResourceTypes request having unsupported authentication or plugin configuration is missing
+2022-12-06T15:26:20.848 error: scimgateway[plugin-loki] 1ms 141.101.96.28 token GET http://23beur-8880.preview.csb.app/ResourceTypes Inbound = {} Outbound = {"statusCode":401,"statusMessage":"Unauthorized","body":{"error":"Access denied"}}
+
+2022-12-06T15:27:01.688 info: scimgateway[plugin-loki] 3ms 141.101.96.231 token GET http://23beur-8880.preview.csb.app/ResourceTypes Inbound = {} Outbound = {"statusCode":200,"statusMessage":"OK","body":{"totalResults":2,"itemsPerPage":2,"startIndex":1,"schemas":["urn:ietf:params:scim:api:messages:2.0:ListResponse"],"Resources":[{"schemas":["urn:ietf:params:scim:schemas:core:2.0:ResourceType"],"id":"urn:ietf:params:scim:schemas:core:2.0:User","name":"User","endpoint":"/Users","description":"User Account","schema":"urn:ietf:params:scim:schemas:core:2.0:User","schemaExtensions":[{"schema":"urn:ietf:params:scim:schemas:extension:enterprise:2.0:User","required":false}],"meta":{"resourceType":"ResourceType","location":"/Schemas/urn:ietf:params:scim:schemas:core:2.0:User"}},{"schemas":["urn:ietf:params:scim:schemas:core:2.0:ResourceType"],"id":"urn:ietf:params:scim:schemas:core:2.0:Group","name":"Group","endpoint":"/Groups","description":"Group","schema":"urn:ietf:params:scim:schemas:core:2.0:Group","meta":{"resourceType":"Schema","location":"/Schemas/urn:ietf:params:scim:schemas:core:2.0:Group"}}]}}
+
+2022-12-06T15:27:24.303 error: scimgateway[plugin-loki] / request is missing authentication information
+2022-12-06T15:27:24.303 error: scimgateway[plugin-loki] 1ms 141.101.96.244 undefined GET http://23beur-8880.preview.csb.app/ Inbound = {} Outbound = {"statusCode":401,"statusMessage":"Unauthorized","body":{"error":"Access denied"}}
+
